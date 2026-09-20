@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1119">
+  <meta name="description" content="A cinematic field guide to Villagers, Pillagers and the conflict that split the Overworld.">
+  <title>THE RAID — Villagers vs Pillagers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="The Raid home"><span class="brand-mark">✦</span><span>THE RAID<small>FIELD DOCUMENT 07</small></span></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#villagers">The Village</a><a href="#pillagers">The Threat</a><a href="#conflict">The Conflict</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false"><i></i><i></i></button>
+  </header>
+
+  <main>
+    <section class="hero scene" aria-label="The Overworld at dusk">
+      <div class="hero-sky layer" data-speed=".08"></div><div class="sun layer" data-speed=".12"></div>
+      <div class="cloud cloud-a layer" data-speed=".18"></div><div class="cloud cloud-b layer" data-speed=".25"></div>
+      <div class="mountains layer" data-speed=".34"></div><div class="hero-village layer" data-speed=".5"></div>
+      <div class="hero-fog"></div><div class="hero-vignette"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span></span> An unofficial field documentary</p>
+        <h1>THE<br><em>RAID</em></h1>
+        <p class="hero-lede">Two factions. One Overworld.<br>Everything changed when the horns sounded.</p>
+        <a class="button button-light" href="#prologue">Enter the story <span>↓</span></a>
+      </div>
+      <div class="hero-meta"><span>MC / 01</span><span>Overworld · Day 487</span><span class="scroll-cue">Scroll to explore <b>↓</b></span></div>
+    </section>
+
+    <section class="prologue dark-section" id="prologue">
+      <div class="section-inner split reveal"><div><p class="eyebrow amber"><span></span> The Overworld, observed</p><h2>Peace is a<br><em>fragile block.</em></h2></div><div class="intro-copy"><p>Beyond the square horizon, two ways of life have taken root. One builds with open doors and ringing bells. The other watches from the treeline, crossbow loaded.</p><p>This is the story of the people who stayed—and the ones who came back.</p><a class="text-link" href="#villagers">Begin the field guide <span>↗</span></a></div></div>
+      <div class="stat-strip section-inner reveal"><div><strong>2</strong><span>factions</span></div><div><strong>1</strong><span>shared world</span></div><div><strong>∞</strong><span>stories in the blocks</span></div></div>
+    </section>
+
+    <section class="faction village-section scene" id="villagers">
+      <div class="grain-lines"></div><div class="section-inner faction-head reveal"><div><p class="eyebrow green"><span></span> Faction 01 · The builders</p><h2>THE<br><em>VILLAGERS</em></h2></div><p class="section-number">01 <span>/ 02</span></p></div>
+      <div class="section-inner village-grid"><div class="village-copy reveal"><p class="lead">They are the heartbeat of the Overworld. Quiet, communal, and far more capable than they first appear.</p><p>Villagers shape their days around work, weather, and one another. A bell calls them home. A golem keeps watch. Their currency is emerald, but their real wealth is continuity.</p><div class="quote">“Every village is a promise that tomorrow will look a little like today.”</div></div><div class="character-window reveal"><div class="pixel-sun"></div><div class="character villager-character"><div class="head"></div><div class="body"></div><div class="legs"></div></div><span class="window-label">FIELD SIGHTING / PLAINS</span></div></div>
+      <div class="section-inner profession-area"><div class="reveal"><p class="eyebrow green"><span></span> A working society</p><h3>EVERY HAND<br>HAS A PURPOSE.</h3><p class="muted">Select a profession to inspect its role in the village economy.</p></div><div class="profession-cards reveal"><button class="profession active" data-prof="farmer"><span class="prof-icon">♒</span><b>Farmer</b><small>Feeds the future</small></button><button class="profession" data-prof="librarian"><span class="prof-icon">▤</span><b>Librarian</b><small>Guards knowledge</small></button><button class="profession" data-prof="armorer"><span class="prof-icon">◇</span><b>Armorer</b><small>Equips the brave</small></button><button class="profession" data-prof="cleric"><span class="prof-icon">✚</span><b>Cleric</b><small>Studies the strange</small></button></div><div class="profession-detail" id="profession-detail"><span>01 / CROP CYCLE</span><strong>THE FARMER</strong><p>Plants, harvests, and quietly keeps the entire settlement alive. An economy begins at the soil.</p></div></div>
+    </section>
+
+    <section class="trade-section dark-section"><div class="section-inner trade-layout reveal"><div><p class="eyebrow amber"><span></span> The village economy</p><h2>TRUST<br>HAS A <em>PRICE.</em></h2></div><div class="trade-card"><div class="trade-top"><span>LIVE EXCHANGE</span><span class="emeralds">◆ ◆ ◆</span></div><div class="trade-row"><span>Farmer</span><b>Wheat</b><span class="arrow">→</span><b>Emerald</b></div><div class="trade-row"><span>Librarian</span><b>Book</b><span class="arrow">→</span><b>Enchanted page</b></div><div class="trade-row"><span>Armorer</span><b>Emeralds</b><span class="arrow">→</span><b>Iron armor</b></div><small>Trades shift with demand. Every exchange leaves a mark.</small></div></div></section>
+
+    <section class="faction pillager-section scene" id="pillagers"><div class="pillager-bg"></div><div class="section-inner faction-head reveal"><div><p class="eyebrow red"><span></span> Faction 02 · The raiders</p><h2>THE<br><em>PILLAGERS</em></h2></div><p class="section-number">02 <span>/ 02</span></p></div><div class="section-inner pillager-grid"><div class="character-window dark-window reveal"><div class="moon"></div><div class="character pillager-character"><div class="head"></div><div class="body"></div><div class="legs"></div><div class="crossbow"></div></div><span class="window-label">FIELD SIGHTING / DARK FOREST</span></div><div class="village-copy reveal"><p class="lead">Not monsters. Not mindless. A faction organized around conquest, grievance, and the sharp end of a crossbow.</p><p>Pillagers patrol outposts and gather in woodland mansions. When a banner appears at the edge of a settlement, the distance between history and violence disappears.</p><div class="weapon-list"><div><b>01</b><span>Crossbow<br><small>Ranged precision</small></span></div><div><b>02</b><span>Banner<br><small>Fear made visible</small></span></div><div><b>03</b><span>Raid<br><small>Order through force</small></span></div></div></div></div></section>
+
+    <section class="locations dark-section" id="locations"><div class="section-inner reveal"><p class="eyebrow amber"><span></span> Three places, one story</p><h2>THE<br><em>FRONTIER</em></h2><div class="location-grid"><article class="location-card village-card"><span>01 / SANCTUARY</span><h3>Village</h3><p>Paths, farms and bells arranged around a shared center. A place worth defending.</p><a href="https://minecraft.wiki/w/Village" target="_blank" rel="noreferrer">Read dossier ↗</a></article><article class="location-card outpost-card"><span>02 / WATCHTOWER</span><h3>Pillager Outpost</h3><p>A hostile silhouette on the horizon. Patrols, cages and a banner marking contested ground.</p><a href="https://minecraft.wiki/w/Pillager_Outpost" target="_blank" rel="noreferrer">Read dossier ↗</a></article><article class="location-card mansion-card"><span>03 / STRONGHOLD</span><h3>Woodland Mansion</h3><p>Deep in the dark forest, a sprawling monument to the Illagers' hidden power.</p><a href="https://minecraft.wiki/w/Woodland_Mansion" target="_blank" rel="noreferrer">Read dossier ↗</a></article></div></div></section>
+
+    <section class="conflict scene" id="conflict"><div class="conflict-sky"></div><div class="section-inner conflict-content reveal"><p class="eyebrow red"><span></span> The night the horns sounded</p><h2>WHEN THE<br><em>BOUNDARY BREAKS</em></h2><p>Raids turn a village into a battlefield. Waves arrive through the dark; defenders answer with iron, arrows, and the courage to stand together. The bell rings. The golem moves. The story becomes yours.</p><a class="button button-light" href="#timeline">Trace the escalation <span>↓</span></a></div><div class="horns">RAID INCOMING</div></section>
+
+    <section class="timeline-section dark-section" id="timeline"><div class="section-inner"><div class="reveal"><p class="eyebrow amber"><span></span> A cycle of conflict</p><h2>FOUR MOMENTS<br>THAT <em>DEFINE</em> THE RAID</h2></div><div class="timeline reveal"><div class="timeline-item active"><b>01</b><div><span>THE SIGNAL</span><h3>A banner crosses the threshold.</h3><p>A patrol captain falls. The Bad Omen begins to follow.</p></div></div><div class="timeline-item"><b>02</b><div><span>THE HORN</span><h3>The horizon answers.</h3><p>Raiders assemble beyond the village border, weapons raised.</p></div></div><div class="timeline-item"><b>03</b><div><span>THE DEFENSE</span><h3>Everyone takes a side.</h3><p>Farmers become fighters. The bell becomes a heartbeat.</p></div></div><div class="timeline-item"><b>04</b><div><span>THE AFTERMATH</span><h3>Silence, then a new morning.</h3><p>Survival has a sound: the village bell, ringing once more.</p></div></div></div></div></section>
+
+    <section class="ending scene"><div class="ending-bg"></div><div class="section-inner ending-content reveal"><p class="eyebrow green"><span></span> Field notes, final entry</p><h2>THE WORLD<br><em>REMAINS.</em></h2><p>Villagers build. Pillagers return. Between them, the Overworld keeps growing—one path, one trade, one defended doorway at a time.</p><p class="final-line">The next chapter is already loading.</p><a class="button button-light" href="#top">Return to the surface <span>↑</span></a></div></section>
+  </main>
+  <footer class="footer"><div class="footer-brand">THE RAID <span>◆</span></div><p>Unofficial fan-made website. Not affiliated with Mojang Studios or Microsoft.</p><div><a href="#top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
